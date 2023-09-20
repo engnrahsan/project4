@@ -427,9 +427,13 @@ overflow-x: hidden;
     text-align: center;
     transform: translate(0%, 31%);
 }
-.animpulse{
-    animation: animPluse 3s linear infinite;
+.animpluse{
+    animation: pulse 3s linear infinite;
 }
+@keyframes pulse {
+    from {top: 0px;}
+    to {top: 10px;}
+  }
 
 .choose-item{
     background-color: #ffffff;
